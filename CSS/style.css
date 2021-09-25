@@ -1,0 +1,133 @@
+:root {
+  --color-1: hsl(225, 100%, 94%);
+  --color-2: hsl(245, 75%, 52%);
+  --color-3: hsl(225, 100%, 98%);
+  --color-4: hsl(224, 23%, 55%);
+  --color-5: hsl(223, 47%, 23%);
+}
+
+html {
+  font-family: 'Red Hat Display' !important;
+}
+
+body {
+  background: url(../IMG/bg-desktop.svg);
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: var(--color-1);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  max-height: 85vh;
+  max-width: 85%;
+  width: 450px;
+  background: white;
+  border-radius: 25px;
+  word-wrap: break-word;
+}
+
+.img {
+  background: url(../IMG/hero.svg);
+  border-radius: 25px 25px 0 0;
+  height: 210px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.contentContainer {
+  padding: 0 65px;
+}
+
+.contentContainer h1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 20px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.contentContainer p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--color-4);
+}
+
+.containerPlans {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 10px;
+  margin: 50px;
+  border-radius: 15px;
+  background: var(--color-3);
+}
+
+.imgMusic {
+  height: 55px;
+  padding: 0 20px 0;
+}
+
+.plans {
+  padding: 10px 0;
+}
+
+.plans h2 {
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.plans p {
+  font-style: normal;
+}
+
+.containerPlans a {
+  margin: 0 0 0 65px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 50px;
+}
+
+.button {
+  padding: 15px 101px;
+  border-radius: 15px;
+  background-color: var(--color-2);
+  border: none;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ContainerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 0;
+}
+
+.ContainerFooter a {
+  text-decoration: none;
+  font-size: 14px;
+}
