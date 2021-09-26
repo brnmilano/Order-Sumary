@@ -98,6 +98,7 @@ body {
   margin: 0 0 0 65px;
   text-decoration: none;
   text-transform: lowercase;
+  cursor: url(../IMG/cursor.png), default;
 }
 
 .containerButton {
@@ -112,12 +113,14 @@ body {
   border-radius: 15px;
   background-color: var(--color-2);
   border: none;
+  cursor: url(../IMG/cursor.png), default;
 }
 
 .button a {
   color: white;
   text-decoration: none;
   font-weight: 700;
+  cursor: url(../IMG/cursor.png), default;
 }
 
 .ContainerFooter {
@@ -130,4 +133,63 @@ body {
 .ContainerFooter a {
   text-decoration: none;
   font-size: 14px;
+  cursor: url(../IMG/cursor.png), default;
 }
+
+@media screen and (max-width: 414px) {
+  .img {
+    margin: 0 0 25px 0;
+  }
+  .contentContainer {
+    padding: 0 40px;
+    margin: 0;
+  }
+  .contentContainer h1 {
+    margin: 0 0 20px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .containerPlans {
+    padding: 10px 0;
+    margin: 20px 25px 5px;
+  }
+  .plans {
+    padding: 15px 0;
+  }
+  .plans h2 {
+    font-size: 10px;
+  }
+  .containerPlans a {
+    margin: 0 0 0 35px;
+  }
+  .containerButton {
+    padding: 0;
+    margin: 20px 25px;
+  }
+  .button {
+    padding: 20px 74px;
+  }
+  .button a {
+    font-size: 16px;
+  }
+  .ContainerFooter {
+    margin: 15px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mainContainer {
+    height: 100vh;
+    max-height: 95vh;
+  }
+  .imgMusic {
+    padding: 0 20px 0 10px;
+  }
+  .plans h2 {
+    font-size: 15px;
+  }
+  .containerPlans a {
+    margin: 0 0 0 15px;
+  }
+} 
