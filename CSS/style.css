@@ -144,6 +144,9 @@ body {
     padding: 0 40px;
     margin: 0;
   }
+  .imgMusic {
+    padding: 0 13px 0;
+  }
   .contentContainer h1 {
     margin: 0 0 20px;
     font-size: 25px;
@@ -160,7 +163,7 @@ body {
     font-size: 10px;
   }
   .containerPlans a {
-    margin: 0 0 0 35px;
+    margin: 0 0 0 27px;
   }
   .containerButton {
     padding: 0;
@@ -178,18 +181,26 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 384px) {
   .mainContainer {
     height: 100vh;
     max-height: 95vh;
   }
-  .imgMusic {
-    padding: 0 20px 0 10px;
+  .img {
+    margin: 0 0 25px 0;
   }
-  .plans h2 {
-    font-size: 15px;
+}
+
+@media screen and (max-width: 320px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 95vh;
+    max-width: 95%;
+    width: 450px;
   }
-  .containerPlans a {
-    margin: 0 0 0 15px;
+  .img {
+    margin: 0 0 10px 0;
   }
-} 
+}
