@@ -26,9 +26,7 @@ body {
 .mainContainer {
   display: flex;
   flex-direction: column;
-  height: 75vh;
-  max-height: 85vh;
-  max-width: 85%;
+  height: 65vh;
   width: 450px;
   background: white;
   border-radius: 25px;
